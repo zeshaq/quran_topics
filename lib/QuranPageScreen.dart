@@ -105,7 +105,7 @@ class QuranPageScreenState extends State<QuranPageScreen> {
           elevation: 2.0,
           child: ListTile(
 
-              title: Text('${this.pageList[position].number.toString()}.${this.pageList[position].title}',
+              title: Text(this.pageList[position].number.toString(),
                   style: TextStyle(fontWeight: FontWeight.bold)
 
               ),
